@@ -1,0 +1,45 @@
+.parentbox{
+    position:relative;
+    margin:20px 20px;
+    border: purple 3px dashed;
+    height: 200px;
+
+}
+.parenttext {
+    position:absolute;
+    text-align: center;
+    width:100%;
+    bottom:0;
+}
+
+.subtext {
+    
+    text-align: center;
+    font-size: 10px;
+    color:green;
+    font-weight:bold;
+}
+
+.moretext {
+color: orange;
+text-align: left;
+}
+
+sup {
+    color: red;
+    font-style:italic
+}
+
+.believe {
+    color: purple;
+    text-align: right;
+    font-size: 8px;
+}
+
+i {
+    color: yellow;
+    font-style: italic;
+    text-transform: capitalize;
+
+}
+
