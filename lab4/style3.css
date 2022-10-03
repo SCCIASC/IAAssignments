@@ -1,0 +1,20 @@
+body{
+background-color: green;
+}
+
+.parent {
+    margin:20px 20px;
+    border: black 3px  dashed;
+}
+
+.text1 {
+    color: red;
+}
+
+.text2 {
+    color: #005309;
+}
+
+.text3 {
+    color: #6A0000;
+}
