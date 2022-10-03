@@ -1,0 +1,19 @@
+body{
+    background-color: blue;
+}
+
+.parentbox{
+    margin:20px 20px;
+    border: black 3px solid;
+}
+.box1{
+    margin:15px 15px;
+    border: green 3px dashed;
+}
+
+img{
+    width:auto;
+    border: 3px yellow dashed;
+    padding: 15px;
+    
+}
