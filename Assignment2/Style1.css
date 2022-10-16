@@ -1,12 +1,23 @@
+body {
+    max-width: 100%;
+}
+
 .header {
     margin-top: -16px;
-    margin-right: -7px;
+    margin-right: -1px;
     margin-left: -7px;
     height: 170px;
     background-color: #1abc9c;
     text-align: center;
     box-shadow: 7px 7px 7px #0e6856;
 }
+
+img {
+    opacity: 0.7; 
+    filter:blur(4px);
+    width: 100%;
+    height: 100%;
+ }
 
 .headertext{
     margin-top: -25px;
@@ -22,12 +33,6 @@
 .headertext h3{
     position: relative;
     bottom: 15px;
-}
-
-img {
-   opacity: 0.7; 
-   filter:blur(4px);
-
 }
 
 h1, h3 {
@@ -52,63 +57,33 @@ h1, h3 {
 }
 
 .parent {
-    width:50%;
+    width: 50%;
 }
 
 .child {
-    width: 50%;
     float:left;
-}
-
-.child h1 {
-    position: relative;
-    bottom: -20px;
-    text-transform: uppercase;
-    text-align: center;
+    width: 50%;
 }
 
 .box1 {
-    margin-left: 30%;
-    margin-right: -80%;
-    margin-top: 30px;
-    padding: 15px;
-    height: 600px;
-    background-color: gray;
-    text-align: center;
-    overflow: hidden;
-    box-shadow: 7px 7px 7px rgb(75, 75, 75);
+    margin-left: 70%;
+    margin-right: -30%;
+    background-color:gray;
+}
+.box2{
+    margin-left:70%;
+    margin-right: -30%;
+    background-color:gray;
 }
 
-.box2 {
-    position:relative;
-    top: 10px;
-    margin-left: 100%;
-    margin-right: -170%;
-    height: 275px;
-    background-color: gray; 
-    box-shadow: 7px 7px 7px rgb(75, 75, 75); 
+.box3{
+    margin-left:70%;
+    margin-right: -30%;
+    background-color:gray;  
 }
 
-.box2 ol {
-    position:relative;
-    font-size: 25px;
-    left: 30%;
-    top: -10%;
-}
-
-.box3 {
+.container {
     position: relative;
-    top: 65px;
-    margin-left: 100%;
-    margin-right: -170%;
-    height: 275px;
-    background-color: gray;
-    box-shadow: 7px 7px 7px rgb(75, 75, 75);
-}
-
-.box3 ul {
-    position:relative;
-    font-size: 25px;
-    left: 30%;
-    top: -10%;
+    top:800px;
+    height: 100px;
 }
