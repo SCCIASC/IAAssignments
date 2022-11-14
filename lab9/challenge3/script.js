@@ -1,13 +1,13 @@
-var date = new Date();
-year = date.getFullYear();
+function submitdata() {
+    var first= Number(document.getElementById("number1").value);
+    var second= Number(document.getElementById("number2").value);
 
-let age = prompt("What is your age?");
+    total = first + second;
+    total = total
+    document.getElementById("printout").innerHTML="Total: " + total;
 
-birthyear = year - age;
-printout  = birthyear;
+    console.log(first)
+    console.log(second)
+    console.log(total)
 
-document.write(printout)
-
-console.log(age);
-console.log(year)
-console.log(birthyear)
+}
