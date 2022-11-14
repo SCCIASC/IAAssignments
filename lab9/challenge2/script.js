@@ -6,7 +6,7 @@ let age = prompt("What is your age?");
 birthyear = year - age;
 printout  = birthyear;
 
-document.write(printout)
+document.write("Your Birth Year is: " + printout)
 
 console.log(age);
 console.log(year)
