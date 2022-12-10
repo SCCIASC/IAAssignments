@@ -3,38 +3,55 @@
 
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-	<title>Exercise 1</title>
+	<title>Plant Family</title>
 	<script type="text/javascript" src="scripts.js"></script>
     <link href="style1.css" rel="stylesheet" type="text/css"/>
 </head>
 
-<body> 
+<body onload="clock()"> 
     <div class = "navbox">
         <div class = "navlinksleft">
             <a href = "home.html"> Home </a>
         </div>
         <div class = "navlinksleft">
-            <a href = ""> Link site 2</a>
+            <a href = ""> Calculator</a>
         </div>
         <div class = "navlinksleft">
-            <a href = ""> Link site 3</a>
+            <a href = "plantgallary.html"> Plant Gallary</a>
         </div>
         <div class = "navlinksright">
-            <a href = "fromthedev.html"> Message from the dev</a>
+            <a href = "thankyou.html"> Bonus: Message from the student</a>
         </div>
     </div>
     
-    <div class = "box1">
+    <div class = "boxmain">
         <div class = "headerbox">
             <div class = "headertext">
-                <h1> THIS IS THE TITLE </h1>
-                <h2> this is the subtitle</h2>
+                <h1> PLANT FAMILY </h1>
+                <h2> A little haven for plant lovers.</h2>
             </div>
             <hr>
         </div>
         <div class = "picture1">
-            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png" alt = "temp">
-        </div>  
+            <img src = "image.jpg" alt = "Pineapple Background"/>
+        </div>
+        <div class = "box2">
+            text
+        </div>
+        <div class = "box1">
+            <div class = "box1child1">
+                <h2> What time is it?</h2>
+                <div id = "clockdisplay" class = "clockdisplay"></div>
+                <hr>
+            </div>
+            <div class = "box1child2">
+                <p> want to know how long you've been on the site?</p>
+                <button onclick="timecounter()">Click here!</button>
+            </div>
+        </div>
+        <div class = "box3">
+            text
+        </div>
     </div>
 
     <div class = "footer">
