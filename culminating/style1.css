@@ -12,21 +12,40 @@ h1 {
     font-size: 50px;
     margin: 0;
     padding: 0;
+    color: #2c2c34;
 }
 
 h2 {
     font-size: 20px;
     margin: 0;
     padding: 0;
-    color: #7c7c97;
+    color: #68696Cff;
     font-style:oblique;
 }
+
 a:link {
     text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
+}
+
+button {
+    background-color: #4E4415ff;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    opacity: 0.5;
+    background-color: rgb(90, 78, 24);
+    cursor: pointer;
 }
 
 .navbox {
@@ -36,12 +55,13 @@ a:visited {
     margin-right: -8px;
     padding: 0;
     height: 30px;
+    width:auto;
     box-shadow: 5px 5px 5px #131316;
 }
 
 .navlinksleft {
     height:30px;
-    width: 100px;
+    width: 120px;
     text-align: center;
     transition: 0.4s;
     float: left;
@@ -63,7 +83,7 @@ a:visited {
 
 .navlinksright {
     height:30px;
-    width: 200px;
+    width: 270px;
     text-align: center;
     transition: 0.4s;
     float: right;
@@ -86,17 +106,126 @@ a:visited {
     top: 30px;
 }
 
-.footer {
-    background-color: blue;
-}
-.box1 {
+.boxmain {
     margin-right: 150px;
     margin-left: 150px;
-    height: 1200px;
-     
+    height: 2000px;  
 }
-.picture1 {
 
-    height: 500px
-    
+.box1 {
+    height: 300px;
+    width: 600px;
+    background-color: #C0C3B7ff;
+    margin-bottom: 100px;
 }
+
+.box1 h2 {
+    Color: black;
+    font-size: 35px;
+    position: relative;
+    top: 100px;
+    left:  40px;
+}
+
+.box1 hr {
+    transform: rotate(90deg);
+    width: 200px;
+    border-color: #68696Cff;
+    position: relative;
+    left: 145px;
+    top: 60px;
+}
+
+.clockdisplay {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.box1child1 {
+width: 300px;
+height: 300px;
+float:left;
+}
+
+.box1child2{
+width: 300px;
+height: 300px;
+position: relative;
+float: right;
+}
+
+.box1child2 p {
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+
+.box1child2 button {
+    position: relative;
+    left: 90px;
+    top: 50px;
+}
+
+.box2 {
+    height: 900px;
+    width: 600px;
+    background-color: #68696Cff;
+    float: right;
+    position: relative;
+}
+
+.box3 {
+    height: 500px;
+    width: 600px;
+    background-color: #C0C3B7ff;
+    margin-bottom: 100px;
+}
+
+.picture1 {
+    height: 800px;
+    margin-bottom: 35px;
+}
+
+.footer {
+    background-color: #2c2c34; 
+    box-shadow: -5px -5px 5px#131316;
+    height: 30px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+
+/* PLANT GALLARY PAGE */
+
+.plantbox {
+    margin: 30px;
+    margin-left: 70px;
+    background-color: #131316;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    float: left;
+    box-shadow: 5px 5px 5px #131316;
+}
+
+.boxmainplant {
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 1600px;  
+}
+
+
+/*
+--forest-green-traditional: #04501Dff
+--olive-green: #A3A34Dff;
+--army-green: #4E4415ff;
+--ash-gray: #C0C3B7ff;
+--dim-gray: #68696Cff;
+--cool-darkgray: #2c2c34;
+*/
