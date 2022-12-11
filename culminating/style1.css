@@ -117,6 +117,7 @@ button:hover {
     width: 600px;
     background-color: #C0C3B7ff;
     margin-bottom: 100px;
+    box-shadow: 5px 5px 5px #68696C;
 }
 
 .box1 h2 {
@@ -175,16 +176,74 @@ float: right;
 .box2 {
     height: 900px;
     width: 600px;
-    background-color: #68696Cff;
+    background-color: #C0C3B7ff;
     float: right;
     position: relative;
+    box-shadow: 5px 5px 5px #68696C;
+}
+
+.box2 a {
+    position: relative;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: bold;
+    left: 410px;
+    bottom: 20px;
+}
+
+.box2 h2 {
+    color: #2c2c34;
+    font-size: 35px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.box2 p {
+    color: #2c2c34;
+    margin: 10px;
+    font-size: 20px;
+    position: relative;
+    top: 35px;
 }
 
 .box3 {
     height: 500px;
     width: 600px;
-    background-color: #C0C3B7ff;
     margin-bottom: 100px;
+    box-shadow: 5px 5px 5px #68696C;
+    background-image:url("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2017_28/2070086/170712-better-living-with-plants-bedroom-se-1205p.jpg");
+}
+
+.box3 h2 {
+    color: #2c2c34;
+    font-size: 35px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.readmore {
+    width: 300px;
+    height: 100px;
+    background-color: #4E4415;
+    text-align: center;
+    position: relative;
+    left: 140px;
+    top: 160px;
+    transition: 0.4s;
+}
+
+.readmore a {
+    position:relative;
+    top: 25px;
+    color: white;
+    font-size: 35px;
+}
+
+.readmore:hover{
+    background-color: #4E4415;
+    opacity: 0.9;
 }
 
 .picture1 {
@@ -243,18 +302,18 @@ float: right;
 }
 
 .boxrandom {
-    background-color: #A3A34Dff;
+    background-color: #A3A34D;
     height: 400px;
     margin-right: 300px;
     margin-left: 300px;
     margin-top: 100px;
-
+    box-shadow: 5px 5px 5px #797937;
 }
 
 .outputbox {
     background-color: white;
     border: solid;
-    border-color: #A3A34Dff;
+    border-color: #A3A34D;
     height: 100px;
 }
 
@@ -275,15 +334,13 @@ float: right;
 }
 
 .boxrandom button:hover {
-    background-color: rgb(59, 51, 16);
+    background-color: #3b3310;
     opacity: 0.9;
 }
-
-
-
-
 /*
 --forest-green-traditional: #04501Dff
+
+
 --olive-green: #A3A34Dff;
 --army-green: #4E4415ff;
 --ash-gray: #C0C3B7ff;

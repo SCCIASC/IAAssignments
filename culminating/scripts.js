@@ -42,13 +42,16 @@ function clock() {
   }
 
 
-  // BASIC CALCULATOR ----------------------------------------------- //
+  // PLANT RANDOMIZER ----------------------------------------------- //
 
   function randomplant() {
       const plant = ["Roses", "Lillies", "Tulips", "Orchids", "Carnations", "Hyacinths", "Peruvian Lillies", "Chrysanthemums", "Gladiolus", "Anemone", "Daffodil", "Poppy", "Sunflower"];
       const random = Math.floor(Math.random() * plant.length);
       document.getElementById("output").innerHTML=(plant[random]);
   }
+
+
+ // BONUS THANK YOU ----------------------------------------------- //
 
   function thankyou() {
     alert("Hi! Just wanted to pop in to say thank you for this semester. It was fun learning a new coding language (even though some people dont consider html or css a coding language..)");
