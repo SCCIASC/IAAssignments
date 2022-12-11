@@ -1,3 +1,5 @@
+// HOW LONG ON SITE ----------------------------------------------- //
+
 var start = new Date();
 let timeonload = start.getTime();
 
@@ -10,6 +12,8 @@ function timecounter() {
 	alert("You have been on the page for: "+ roundedfinal + " Seconds");
 }
 
+
+// UPDATING DIGITAL CLOCK ----------------------------------------------- //
 // Updating Digital clock referenced from: https://flexiple.com/javascript/javascript-clock/
 
 function clock() {
@@ -36,3 +40,18 @@ function clock() {
     document.getElementById("clockdisplay").innerText = time; 
     let t = setTimeout(function(){ clock() }, 1000);
   }
+
+
+  // BASIC CALCULATOR ----------------------------------------------- //
+
+  function randomplant() {
+      const plant = ["Roses", "Lillies", "Tulips", "Orchids", "Carnations", "Hyacinths", "Peruvian Lillies", "Chrysanthemums", "Gladiolus", "Anemone", "Daffodil", "Poppy", "Sunflower"];
+      const random = Math.floor(Math.random() * plant.length);
+      document.getElementById("output").innerHTML=(plant[random]);
+  }
+
+  function thankyou() {
+    alert("Hi! Just wanted to pop in to say thank you for this semester. It was fun learning a new coding language (even though some people dont consider html or css a coding language..)");
+    alert("Anyways, I hope you're enjoying your experience on the site, I had fun making it, and really enjoyed learning the basics of javascript. Dont worry, this is the last alert :P");
+  }
+  

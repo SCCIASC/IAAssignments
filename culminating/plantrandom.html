@@ -15,25 +15,35 @@
             <a href = "home.html"> Home </a>
         </div>
         <div class = "navlinksleft">
-            <a href = ""> Calculator</a>
-        </div>
-        <div class = "navlinksleft">
             <a href = "plantgallary.html"> Plant Gallary</a>
         </div>
+        <div class = "navlinksleft">
+            <a href = "plantrandom.html"> Plant Randomizer</a>
+        </div>
         <div class = "navlinksright">
-            <a href = "thankyou.html"> Bonus: Message from the student</a>
+            <button onclick="thankyou()">Bonus: Message from the student</button>
         </div>
     </div>
     
-    <div class = "boxmain">
+    <div class = "boxmainrandom">
         <div class = "headerbox">
             <div class = "headertext">
-                <h1> THANK YOU. </h1>
-                <h2> No, really.</h2>
+                <h1> Plant Randomizer </h1>
+                <h2> Cant decide on a plant?</h2>
             </div>
             <hr>
         </div>
+        <div class = "boxrandom">
+                <div class = "outputbox">
+                    <p id = "output"> ... </p>
+                </div>
+                <button onclick="randomplant()">Randomize Plant</button>
+            </div>
+        </div>
     </div>
+
+
+
     <div class = "footer">
         <div class = "navlinksleft">
             <a href = "#1"> Back to the top </a>
